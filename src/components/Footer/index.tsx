@@ -19,15 +19,15 @@ const Footer = () => {
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo-3.png"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="ml:-1 hidden w-full dark:block"
                     width={140}
-                    height={30}
+                    height={15}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  MoneyMapping | Efficient Tracking for Saving and Investing
+                  Efficient Tracking for Saving and Investing
                 </p>
                 <div className="flex items-center">
                   <a
