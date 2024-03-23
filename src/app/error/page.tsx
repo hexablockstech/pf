@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
+  title:
+    "Error Page | MoneyMapping | Efficient Tracking for Saving and Investing",
   description: "This is Error Page for Startup Nextjs Template",
   // other metadata
 };
