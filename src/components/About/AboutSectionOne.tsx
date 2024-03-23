@@ -24,26 +24,25 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We Believe In"
+                paragraph="At MoneyMapping, we believe that everyone deserves to feel confident and in control of their money, no matter how old they are. We believe that learning about money can be fun and exciting, just like playing your favorite game or reading a fantastic story. We believe that by teaching kids and grown-ups alike how to track their money and set goals, we can help them create amazing futures for themselves and their families. Together, we can make money management an adventure filled with possibility and success!"
                 mb="44px"
               />
-
               <div
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Empowerment" />
+                    <List text="Education" />
+                    <List text="Opportunity" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Inclusion" />
+                    <List text="Confidence" />
+                    <List text="Prosperity" />
                   </div>
                 </div>
               </div>

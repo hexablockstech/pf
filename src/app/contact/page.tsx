@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
     "Contact Page | MoneyMapping | Efficient Tracking for Saving and Investing",
-  description: "This is Contact Page for Startup Nextjs Template",
+  description: "Get in Touch, Let's Talk Money!",
   // other metadata
 };
 
@@ -15,9 +15,8 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Get in Touch, Let's Talk Money!"
       />
-
       <Contact />
     </>
   );

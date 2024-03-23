@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  MoneyMapping | Efficient Tracking for Saving and Investing
                 </p>
                 <div className="flex items-center">
                   <a
@@ -215,24 +214,19 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
+              This site is operated by MoneyMapping, which is not a registered
+              broker-dealer or investment advisor. MoneyMapping does not provide
+              investment advice, endorsement, analysis, or recommendations
+              regarding any investments or securities. Offers to sell or
+              solicitations of offers to buy any security can only be made
+              through official offering documents. Users should conduct their
+              own due diligence and not rely solely on the information provided
+              on this website or app. We encourage users to consult with a
+              financial advisor, attorney, or any other professional to
+              understand and assess the risks associated with any investment
+              opportunity. MoneyMapping does not guarantee any investment
+              performance, outcome, or return of capital for any investment
+              opportunity featured on this site.
             </p>
           </div>
         </div>
