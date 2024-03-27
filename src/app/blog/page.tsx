@@ -7,7 +7,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
     "Blog Page | MoneyMapping | Efficient Tracking for Saving and Investing",
-  description: "This is Blog Page for Startup Nextjs Template",
+  description:
+    "Explore our blog for valuable financial insights and tips on saving, investing, and achieving financial freedom.",
   // other metadata
 };
 
@@ -15,8 +16,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Blog"
+        description="Explore our blog for valuable financial insights and tips on saving, investing, and achieving financial freedom."
       />
 
       <section className="pb-[120px] pt-[120px]">
