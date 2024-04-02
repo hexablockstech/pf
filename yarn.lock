@@ -1774,6 +1774,11 @@ keyv@^4.5.3:
   dependencies:
     json-buffer "3.0.1"
 
+knockout@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/knockout/-/knockout-3.5.1.tgz#62c81e81843bea2008fd23c575edd9ca978e75cf"
+  integrity sha512-wRJ9I4az0QcsH7A4v4l0enUpkS++MBx0BnL/68KaLzJg7x1qmbjSlwEoCNol7KTYZ+pmtI7Eh2J0Nu6/2Z5J/Q==
+
 language-subtag-registry@^0.3.20:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
@@ -2486,6 +2491,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -2612,6 +2618,23 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+survey-core@^1.9.136:
+  version "1.9.136"
+  resolved "https://registry.yarnpkg.com/survey-core/-/survey-core-1.9.136.tgz#6db7b97fcd99dcfebe6b4841f881cf58e9dbf469"
+  integrity sha512-0bZsETSx45rIyRu74ziwoEQZRL4WTzMXXjpEt9vhYT8ghYNPtyD2xeua4jxQfxpwjBHN55lwGrxi9VlGOaMnoA==
+
+survey-knockout@^1.9.136:
+  version "1.9.136"
+  resolved "https://registry.yarnpkg.com/survey-knockout/-/survey-knockout-1.9.136.tgz#32b87bac74c5cdc71a421bb81871433024110c3f"
+  integrity sha512-Ry/SDz1D9agkdPiqy521BqQANhm+hvP5+4qbUCPeSIq9KDsWxrJ4rRoyxEwet8FS6DGX1hleFTwA0oDIYNAoRw==
+  dependencies:
+    knockout "^3.5.1"
+
+survey-react@^1.9.136:
+  version "1.9.136"
+  resolved "https://registry.yarnpkg.com/survey-react/-/survey-react-1.9.136.tgz#ec5c64177d99b707abc48961d4a1022a488f98d6"
+  integrity sha512-fa1UuJ8fMphRpdn56R+vSCpWyzDX3NOslveIe+Ddx/ui6FyOKJYk3wEeChV1Q0Y9DiGhtLSOnetPQhsfTdBx+g==
 
 tailwindcss@^3.4.1:
   version "3.4.1"

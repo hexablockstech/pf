@@ -15,7 +15,10 @@
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-modal-video": "^2.0.1"
+    "react-modal-video": "^2.0.1",
+    "survey-core": "^1.9.136",
+    "survey-knockout": "^1.9.136",
+    "survey-react": "^1.9.136"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",
