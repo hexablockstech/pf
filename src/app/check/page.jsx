@@ -20,12 +20,10 @@ const SurveyForm = () => {
             title: 'What is your age group?',
             choices: [
               'Under 18',
-              '18-24',
-              '25-34',
-              '35-44',
-              '45-54',
-              '55-64',
-              '65 or older',
+              '18-29',
+              '30-39',
+              '40-59',
+              '60 or older',
             ],
           },
           {
@@ -33,11 +31,11 @@ const SurveyForm = () => {
             name: 'income_range',
             title: 'What is your approximate annual income range?',
             choices: [
-              'Less than $30,000',
-              '$30,000 - $50,000',
-              '$50,001 - $75,000',
-              '$75,001 - $100,000',
-              'Above $100,000',
+              'Less than ₹3 lakh',
+              '₹3 - 5 lakh',
+              '₹5 - 9 lakh',
+              '₹9 - 15 lakh',
+              'Above ₹15 lakh'
             ],
           },
           {
@@ -80,17 +78,20 @@ const SurveyForm = () => {
 
   // Handle survey completion
   const onCompleteSurvey = (survey) => {
-    console.log('Survey results:', survey.data);
+    console.log('Survey results:', JSON.stringify(survey.data));
   };
 
   useEffect(() => {
     setSurvey(surveyJSON);
   }, []);
 
-  const surveyContainer = document.querySelector('.survey-container');
-  if (surveyContainer) {
-    surveyContainer.classList.toggle('dark-mode');
-  }
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    const surveyContainer = document.querySelector('.survey-container');
+    if (surveyContainer) {
+      surveyContainer.classList.toggle('dark-mode');
+    }
+  };
 
   return (
     <div
