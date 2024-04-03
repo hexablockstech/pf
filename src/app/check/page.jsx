@@ -1,5 +1,6 @@
 // SurveyComponent.js
 "use client";
+import API_URL from '../../config/config';
 import { useEffect, useState } from 'react';
 import * as Survey from 'survey-react';
 import 'survey-react/survey.css'; // Import SurveyJS stylesheet
@@ -77,13 +78,33 @@ const SurveyForm = () => {
   };
 
   // Handle survey completion
-  const onCompleteSurvey = (survey) => {
-    console.log('Survey results:', JSON.stringify(survey.data));
+  const onCompleteSurvey = async (survey) => {
+    try {
+      const response = await fetch(`${API_URL}/api/user/save`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(survey.data)
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to save survey data');
+      }
+
+      console.log('Survey results:', JSON.stringify(survey.data));  
+      console.log('Survey data saved successfully');
+    } catch (error) {
+      console.error('Error saving survey data:', error);
+    }
   };
 
-  useEffect(() => {
-    setSurvey(surveyJSON);
+    useEffect(() => {
+      setSurvey(surveyJSON);
   }, []);
+
+
+
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
