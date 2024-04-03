@@ -25,6 +25,12 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
+  const [theme, setTheme] = useState("light");
+  useEffect(() => {
+    setTheme(localStorage.getItem("theme") || "light");
+  }, []);
+
+  const logoSrc = theme === "dark" ? "/images/logo/logo-3.png" : "/images/logo/logo-2.svg";
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -57,14 +63,15 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src={logoSrc}
+                  // src="/images/logo/logo-2.svg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo-3.png"
+                  src= {logoSrc}  //"/images/logo/logo-3.png"
                   alt="logo"
                   width={140}
                   height={15}
